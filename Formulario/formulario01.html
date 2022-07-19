@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+
+        
+        <main>
+            <div>
+                <h2>Nome</h2>
+                <input type="text" id="nome">
+                <h2>Email</h2>
+                <input type="text" id="email">
+                <h2>Idade (opcional)</h2>
+                <input type="number" id="idade">
+                
+                <h2>Qual sua função atualmente ?</h2>
+                <input type="text" list="tipos">
+                
+                <datalist id="tipos">
+                    <option value="Junior"></option>
+                    <option value="Pleno"></option>
+                    <option value="Senior"></option>
+
+                </datalist>
+                
+            </div>
+
+            <h2>Quais são as linguagens que voçê pretende aprender ?</h2>
+
+            <label>
+              <input type="checkbox" id="HTML-CSS">  
+              HTML / CSS
+            </label>
+            <label>
+                <input type="checkbox" id="JavaScript">
+                JavaScript
+            </label>
+            
+            <label>
+                <input type="checkbox" id="Python">
+                Python
+            </label>
+            <label>
+                <input type="checkbox" id="C++">
+                C++   
+            </label>
+            
+            <div>
+                <h2>Oque você mais gosta na area da programação?</h2>
+                <input type="text" id="area">
+            </div>
+            <h2>O que poderia melhorar neste formulario ?</h2>
+
+            <label>
+                <input type="checkbox" id="apresentação">
+                Apresentação
+            </label>
+
+            <label>
+                <input type="checkbox" id="organização">
+                Organização
+            </label>
+
+            <label>
+                <input type="checkbox" id="imagens">
+                Imagens
+            </label>
+
+            <label>
+                <input type="checkbox" id="conteudo">
+                Conteúdo
+            </label>
+
+             <div>
+                 <h3>Algum comentário ou sugestão?</h3>
+                 <textarea name="sugestao" id="sugestao" cols="65" rows="10"></textarea>
+             </div>
+             <br>
+             <input type="submit" value="enviar" id="enviar"> <!-- botão de enviar -->
+        </main>
+
+    </header>
+</body>
+</html>
