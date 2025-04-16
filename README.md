@@ -16,6 +16,7 @@ Ele foi criado como parte do meu processo de aprendizado prático, com foco em e
 
 ![Preview do Formulário](https://raw.githubusercontent.com/2506roma/Formulario/main/formulario/imagem_formulario.png)
 
+
 ---
 
 ## 🛠️ Tecnologias usadas
